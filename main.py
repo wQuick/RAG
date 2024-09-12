@@ -8,7 +8,7 @@ chromadb_path = "path/to/save/" # CONFIG YOUR PATH
 chroma_client = chromadb.PersistentClient(path=chromadb_path)
 collection = chroma_client.get_collection("my_collection")
 
-prompt_template = """Você é um assistente de IA que responde as dúvidas dos usuários com bases nos documentos a baixo.
+prompt_template = """Você é um assistente de IA que responde as dúvidas dos usuários com bases nos documentos abaixo.
 Os documentos abaixo apresentam as fontes atualizadas e devem ser consideradas como verdade.
 Cite a fonte quando fornecer a informação. 
 Documentos:

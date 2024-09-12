@@ -9,7 +9,7 @@ OFFSET = 200
 
 openai_client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
-chromadb_path = "path/to/save/" # CONFIG YOUR PATH
+chromadb_path = "../Teste_Atos/" # CONFIG YOUR PATH
 chroma_client = chromadb.PersistentClient(path=chromadb_path)
 collection = chroma_client.create_collection(name="my_collection")
 
